@@ -17,7 +17,8 @@
 #define _ADAFRUIT_ILI9341H_
 
 #if defined(PARTICLE)
- #include "Particle.h"
+ #define SPI_HAS_TRANSACTION
+ #include "Arduino.h"
  #include <Adafruit_mfGFX.h>
 
  #if !defined(PLATFORM_ID)		// Core v0.3.4

@@ -16,8 +16,7 @@
 #include "Adafruit_ILI9341.h"
 
 #if defined(PARTICLE)
-  #define SPI_HAS_TRANSACTION
-  //#include "Arduino.h"
+//  Nothing to do (see .h file)
 #else
  #ifdef __AVR__
    #include <avr/pgmspace.h>
